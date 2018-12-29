@@ -185,7 +185,8 @@ section{
        text-align: center
     }
     body{
-        background-size: 100vh
+        background-size: 100vh;
+        background-position: top
     }
 
     .header__text {

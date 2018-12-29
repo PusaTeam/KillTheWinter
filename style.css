@@ -3,7 +3,7 @@ body{
     padding: 0;
     margin: 0;
     font-size: 16px;
-    background: url(img/bg.jpg) no-repeat center center/ cover;
+    background: url(/Creative/img/bg.jpg) no-repeat center center/ cover;
     background-size: 100%;
 }
 .container{
@@ -20,7 +20,7 @@ p, h1, h2, ul, li {
 
 header{width: 100%;
     height: 400px;
-    background-color: rgb(69, 82, 99, 0.8);
+    background-color: rgba(69, 82, 99, 0.795);
     display: flex
 }
 
@@ -62,8 +62,7 @@ section{
     display: flex;
     height: 400px;
     color: #29313a;
-    background-color: rgb(221, 217, 217, 0.8);
-}
+    background-color: rgba(221, 217, 217, 0.8)}
 
 .content__text{
     display: block;
@@ -96,7 +95,7 @@ section{
 /*footer*/
 
 footer{
-    background-color: rgb(69, 82, 99, 0.8);
+    background-color: rgba(69, 82, 99, 0.8);
     color: rgb(255, 255, 255);
 }
 
@@ -149,12 +148,9 @@ display: flex;
        font-size: 10px;
     }
     header{
-        background-color: none;
     }
     
-    .header__text{
-
-    }
+    
     .header__text__title{
         font-size: 307%;
         padding: 20% 10%
@@ -179,7 +175,7 @@ section{
     display: flex;
     height: 300px;
     color: #29313a;
-    background-color: rgb(221, 217, 217, 0.6);
+    background-color: rgba(221, 217, 217, 0.6);
 }
 
 @media all and (max-width: 630px){
@@ -198,7 +194,7 @@ section{
         text-align: center;
         padding: 0;
         margin: 0;
-        background-color: rgb(69, 82, 99, 0.8);
+        background-color: rgba(69, 82, 99, 0.8);
     }
     
     .header__text__title{
@@ -237,7 +233,7 @@ section{
 
     .content__text{
         display: block;
-        background: rgb(221, 217, 217, 0.9);
+        background: rgba(221, 217, 217, 0.8);
     }
     
     .content__text__title{
@@ -270,7 +266,7 @@ section{
     
 
     .footer__textarea{
-        widows: 100%;
+        width: 100%;
         font-size: 100%;
         text-align: center;
         margin: auto;
@@ -288,5 +284,4 @@ section{
             width: 80%;
             height: 30px;
             margin: 2% ;
-            padding: 0;
-            align-items: center}
+            padding: 0} } }
